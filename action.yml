@@ -1,5 +1,5 @@
 name: 'Tank you Action'
-description: 'Say "Thank you" to newl pull resquest'
+description: 'Say "Thank you" to new pull resquest'
 author: "Vinicius"
 
 inputs:
