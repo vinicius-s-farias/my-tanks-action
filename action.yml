@@ -1,16 +1,15 @@
-name: 'Tank you Action'
-description: 'Say "Thank you" to new pull resquest'
-author: "Vinicius"
+name: 'Thank You Act'
+description: 'Say "Thank You" to new pull requests'
+author: 'Vinicius'
 
 inputs:
   GITHUB_TOKEN:
-    description: "GitHub token"
-    required: true
-
+    description: 'GitHub token'
+    requered: true
   TENOR_TOKEN:
     description: 'Tenor API token'
     required: true
 
-    runs:
-      using: 'node14'
-      main:  'dist/index.js'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
