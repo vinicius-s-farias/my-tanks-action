@@ -5,16 +5,21 @@
   "main": "index.js",
   "scripts": {
     "build": "ncc build src/action.js -o dist",
-    "test" : "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vinicius-s-farias/my-tanks-action.git"
   },
   "author": "Vinicius",
-  "license": "MIt",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vinicius-s-farias/my-tanks-action/issues"
   },
-  "homepage": "https://github.com/vinicius-s-farias/my-tanks-action#readme"
+  "homepage": "https://github.com/vinicius-s-farias/my-tanks-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@vercel/ncc": "^0.33.1"
+  }
 }
