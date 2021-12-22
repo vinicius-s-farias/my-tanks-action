@@ -21,9 +21,6 @@
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0",
     "@vercel/ncc": "^0.33.1",
-    "node": "^17.3.0"
-  },
-  "devDependencies": {
-    "node-fetch": "^3.1.0"
+    "node-fetch": "^2.6.6"
   }
 }
